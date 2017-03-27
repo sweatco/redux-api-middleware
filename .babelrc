@@ -1,7 +1,8 @@
 {
-  "stage": 0,
-  "loose": "all",
-  "optional": [
-    "runtime"
-  ]
+    "presets": [
+        "react-native"
+    ],
+    "plugins": [
+        "transform-runtime"
+    ]
 }
